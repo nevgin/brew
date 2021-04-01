@@ -11,7 +11,7 @@ class Hadoop < Formula
   depends_on "openjdk@8"
 
   conflicts_with "yarn", because: "both install `yarn` binaries"
-  conflicts_with "hadoop", because: "both install `hadoop` binaries"
+  conflicts_with "hadoop@3", because: "both install `hadoop` binaries"
 
   def install
     rm_f Dir["bin/*.cmd", "sbin/*.cmd", "libexec/*.cmd", "etc/hadoop/*.cmd"]

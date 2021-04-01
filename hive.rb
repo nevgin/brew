@@ -4,6 +4,7 @@ class Hive < Formula
   url "https://apache-mirror.rbc.ru/pub/apache/hive/hive-2.3.8/apache-hive-2.3.8-bin.tar.gz"
   license "Apache-2.0"
   revision 2
+  sha256 "3746528298fb70938e30bfbb66f756d1810acafbe86ba84edef7bd3455589176"
 
   bottle :unneeded
 
@@ -12,7 +13,7 @@ class Hive < Formula
   # hive requires Java 8. Java 11 support ticket:
   # https://issues.apache.org/jira/browse/HIVE-22415
   depends_on "openjdk@8"
-  conflicts_with "hive@3", because: "both install hive2 and hive3  binaries"
+  conflicts_with "hive", because: "both install hive2 and hive3  binaries"
 
   def install
     rm_f Dir["bin/*.cmd", "bin/ext/*.cmd", "bin/ext/util/*.cmd"]
