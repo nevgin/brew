@@ -7,7 +7,7 @@ class Hive < Formula
 
   bottle :unneeded
 
-  depends_on "hadoop@2"
+  depends_on "nevgin/hadoop/hadoop"
 
   # hive requires Java 8. Java 11 support ticket:
   # https://issues.apache.org/jira/browse/HIVE-22415

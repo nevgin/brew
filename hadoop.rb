@@ -3,6 +3,7 @@ class Hadoop < Formula
   homepage "https://hadoop.apache.org/"
   url "https://apache-mirror.rbc.ru/pub/apache/hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz"
   license "Apache-2.0"
+  sha256 "273d5fa1d479d0bb96759b16cf4cbd6ba3e7f863a0778cbae55ab83417e961f0"
   revision 2
 
   bottle :unneeded
