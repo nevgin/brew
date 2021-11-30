@@ -1,10 +1,10 @@
 class Hive < Formula
   desc "Hadoop-based data summarization, query, and analysis"
   homepage "https://hive.apache.org"
-  url "https://apache-mirror.rbc.ru/pub/apache/hive/hive-2.3.8/apache-hive-2.3.8-bin.tar.gz"
+  url "https://dlcdn.apache.org/hive/stable-2/apache-hive-2.3.9-bin.tar.gz"
   license "Apache-2.0"
   revision 2
-  sha256 "3746528298fb70938e30bfbb66f756d1810acafbe86ba84edef7bd3455589176"
+  sha256 "1996327c96672e7ea8eaa8fc63972c75bc095287a32612e545e0e51c1622cb5c"
 
   bottle :unneeded
 
